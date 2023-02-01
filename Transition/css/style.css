@@ -1,5 +1,17 @@
+.flex {
+   display: flexbox;
+}
+
 .cow {
-    width: ;
-    height: 50;
     
 }
+
+.cow {
+    width: 200px;
+    transition: width 2s;
+}
+
+.cow :hover {
+    width: 600px;
+}
+  
